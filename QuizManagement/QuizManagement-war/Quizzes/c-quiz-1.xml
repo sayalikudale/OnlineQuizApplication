@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+  <title>C Quiz (2/20/2002)</title>
+    <questions>
+    
+      <question>
+        <quizquestion> What is the output of the code below?
+		</quizquestion>
+		<image>http://berksoysal.vacau.com/c1.jpg</image>
+        <answer>10</answer>
+        <answer>20</answer>
+        <answer>11</answer>
+        <answer>21</answer>
+        <correct>2</correct>
+      </question>
+      
+      <question>
+        <quizquestion> What is the built in library function to compare two strings?</quizquestion>
+        <answer>string_cmp()</answer>
+        <answer>strcmp()</answer>
+        <answer>equals()</answer>
+        <answer>str_compare()</answer>
+        <correct>1</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>How to round-off a value 5.77 to 6.0 ?</quizquestion>
+        <answer>ceil(5.77)</answer>
+        <answer>round-off(5.77)</answer>
+        <answer>round-up(5.77)</answer>
+        <answer>floor(5.77)</answer>
+        <correct>0</correct>
+      </question>
+      		
+      <question>
+        <quizquestion>Which header file supports the functions - malloc() and calloc()?</quizquestion>
+        <answer>stdlib.h</answer>
+        <answer>memory.h</answer>
+        <answer>math.h</answer>
+        <answer>stdio.h</answer>
+        <correct>0</correct>
+      </question>	
+	  
+	  <question>
+        <quizquestion>Function fopen() with the mode "r+" tries to open the file for ___________</quizquestion>
+        <answer>only reading</answer>
+        <answer>reading as an admin</answer>
+        <answer>reading and writing</answer>
+        <answer>writing only</answer>
+        <correct>2</correct>
+      </question>
+
+     <question>
+        <quizquestion>Which of the following is the equivalent pointer expression by using the array element a[i][j][k][2],</quizquestion>
+        <answer>((((a+m)+n)+o)+p)</answer>
+        <answer>*(*(*(*(a+i)+j)+k)+2)</answer>
+        <answer>*((((a+m+2)+n)+o+p)</answer>
+        <answer>*(((a+i)+j+k+2+p)</answer>
+        <correct>1</correct>
+      </question>
+
+      <question>
+        <quizquestion>What do you mean by int (*ptr)[10]
+        </quizquestion>
+        <answer>ptr is an array of pointers to 10 integers</answer>
+        <answer>ptr is a pointer to an array of 10 integers</answer>
+        <answer>ptr is an array of 10 integers</answer>
+        <answer>invalid statement</answer>
+        <correct>1</correct>
+      </question>	 
+
+     <question>
+        <quizquestion>What is your comment on this code line?
+         signed int *p=(int*)malloc(sizeof(unsigned int)); </quizquestion>
+        <answer>Improper type casting</answer>
+        <answer>Would throw Runtime error</answer>
+        <answer>Memory will be allocated but cannot hold an int value in the memory</answer>
+        <answer>No issue with statement</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion> What is the main difference between calloc() and malloc()?</quizquestion>
+        <answer>calloc() takes a single argument while malloc() needs two arguments</answer>
+        <answer>malloc() takes a single argument while calloc() needs two arguments</answer>
+        <answer>size of the memory block allocated is different</answer>
+        <answer>calloc() initializes the allocated memory to ZERO</answer>
+        <correct>3</correct>
+      </question>	
+
+     <question>
+        <quizquestion>void main() { int const *p=5; printf("%d",++(*p)); }</quizquestion>
+        <answer>Compiler Error</answer>
+        <answer>Output is 6</answer>
+        <answer>Output is an address value</answer>
+        <answer>None of the Above</answer>
+        <correct>0</correct>
+      </question>	 	   
+	  
+      	
+    </questions>
+</quiz>
